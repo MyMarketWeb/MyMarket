@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(montserrat.ttf);
+
+}
+/*Edge*/
+::-webkit-input-placeholder{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #00000080;
+}
+/*Demais navegadores*/
+::placeholder{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #00000080;
+}
+/*Internet Explorer 10-11*/
+:-ms-input-placeholder{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #00000080;
+}
+.fullCenter {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#texto {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+label {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.textField {
+    width: 324px;
+    height: 30px;
+    background-color: white;
+    border: #767676 solid 1px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+    line-height: 19px;
+}
+
+.whitebutton {
+    width: 200px;
+    height: 50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #024587;
+    border: none;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+header {
+    background-color: #024587;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 80px;
+}
+
+nav a {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+#background{
+    margin-top: 15px;
+    background-color: #D9D9D9;
+    display: flex;
+    width: 500px;
+    height: 98vh;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
